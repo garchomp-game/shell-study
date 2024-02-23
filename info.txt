@@ -1,0 +1,34 @@
+Linux localhost 4.19.113-27095354 #1 SMP PREEMPT Thu Aug 31 19:19:07 KST 2023 aarch64 Android
+Termux Variables:
+TERMUX_API_VERSION=0.50.1
+TERMUX_APK_RELEASE=F_DROID
+TERMUX_APP_PACKAGE_MANAGER=apt
+TERMUX_APP_PID=24492
+TERMUX_IS_DEBUGGABLE_BUILD=0
+TERMUX_MAIN_PACKAGE_FORMAT=debian
+TERMUX_VERSION=0.118.0
+TERMUX__USER_ID=0
+Packages CPU architecture:
+aarch64
+Subscribed repositories:
+# sources.list
+deb https://mirrors.medzik.dev/termux/termux-main stable main
+Updatable packages:
+c-ares/stable 1.27.0 aarch64 [upgradable from: 1.26.0]
+termux-tools version:
+1.40.6
+Android version:
+13
+Kernel build information:
+Linux localhost 4.19.113-27095354 #1 SMP PREEMPT Thu Aug 31 19:19:07 KST 2023 aarch64 Android
+Device manufacturer:
+samsung
+Device model:
+SCG02
+LD Variables:
+LD_LIBRARY_PATH=
+LD_PRELOAD=/data/data/com.termux/files/usr/lib/libtermux-exec.so
+Installed termux plugins:
+com.termux.window versionCode:15
+com.termux.api versionCode:51
+com.termux.styling versionCode:31
