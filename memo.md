@@ -48,6 +48,7 @@ Eve,88,Math
 
 ## 解答欄
 
+<!-- markdownlint-disable MD013 -->
 課題1:awk -F, '{ print $2 }' data.txt
 
 課題2:
@@ -65,6 +66,7 @@ int item, list[item] }' log.txt
 ```bash
 awk -F, 'BEGIN { OFS=": "; } { totals[$3] += $2 } END { for (item in totals) print item, totals[item] }' data.txt
 ```
+<!-- markdownlint-enable MD013 -->
 
 これを分解すると以下のようになる
 
