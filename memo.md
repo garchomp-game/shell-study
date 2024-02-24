@@ -45,3 +45,30 @@ Eve,88,Math
 `log.txt`を使用して、各ログレベル（INFO, WARN, ERROR）がいくつずつ出現するかをカウントし、結果を表示してください。
 
 これらの課題を通じて、`awk`の基本的な使い方から、少し複雑なデータの加工・集計までのスキルを養うことができます。解答例は別のレスポンスで提供しますので、まずは自身で解いてみてください。
+
+```awk
+BEGIN 
+{
+  OFS=": ";
+} 
+{
+  totals[$3] += $2
+} 
+END
+{
+  for (item in totals) print item, totals[item] 
+}
+```
+
+```bash
+awk -F, 'BEGIN { OFS=": "; } { totals[$3] += $2 } END { for (item i
+n totals) print item, totals[item] }' data.txt
+```
+
+## 解答欄
+
+課題1:awk -F, '{ print $2 }' data.txt
+課題2:awk -F, 'BEGIN { OFS=": "; } { totals[$3] += $2 } END { for (item i
+課題3:awk '/ERROR/ {print}' log.txt
+課題4:awk 'BEGIN { OFS=": " } {list[$3] += 1} END { for (item in list) pr
+int item, list[item] }' log.txt
