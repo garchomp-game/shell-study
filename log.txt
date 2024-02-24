@@ -1,0 +1,5 @@
+2023-01-01 12:00:00 INFO User Alice logged in
+2023-01-01 12:30:00 WARN Connection timeout for user Bob
+2023-01-02 09:15:00 INFO User Charlie logged in
+2023-01-02 11:00:00 ERROR Disk full
+2023-01-03 14:20:00 INFO User David logged in

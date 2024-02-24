@@ -1,0 +1,8 @@
+Linux localhost 4.19.113-27095354 #1 SMP PREEMPT Thu Aug 31 19:19:07 KST 2023 aarch64 Android
+aarch64
+c-ares/stable 1.27.0 aarch64 [upgradable from: 1.26.0]
+Linux localhost 4.19.113-27095354 #1 SMP PREEMPT Thu Aug 31 19:19:07 KST 2023 aarch64 Android
+LD_PRELOAD=/data/data/com.termux/files/usr/lib/libtermux-exec.so
+com.termux.window versionCode:15
+com.termux.api versionCode:51
+com.termux.styling versionCode:31
