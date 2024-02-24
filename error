@@ -1,0 +1,3 @@
+grep: unrecognized option '--unknownoption'
+Usage: grep [OPTION]... PATTERNS [FILE]...
+詳しくは'grep --help'を実行してください。
