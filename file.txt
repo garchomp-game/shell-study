@@ -3,3 +3,5 @@ hoge
 huga
 huga
 hogera
+message add 1
+message add 2
